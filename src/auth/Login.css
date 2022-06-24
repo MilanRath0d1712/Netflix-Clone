@@ -1,0 +1,104 @@
+.login
+{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    margin-top: 90px;
+    height: 550px;
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 0px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+
+} 
+
+.login h2{
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 0;
+}
+.login input{
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    font-size: 16px;
+    color: #fff;
+    background: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+#btnOne{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    background: #e50914;
+    border-radius: 7px; 
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 24px;
+    font-size: 16px;
+}
+#btnTwo{
+    height: 50px;
+    width: 100%;
+    color:#fff;
+    background: #e50914;
+    border-radius: 3px; 
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 24px;
+    font-size: 16px;
+}
+#spanOne{
+    font-size: 16px;
+    color: #fff;
+    font-weight:600;
+    cursor: pointer;
+}
+
+#pOne {
+    color: rgb(110, 108, 108);
+
+}
+#spanTwo{
+    font-size: 16px;
+    color: #fff;
+    font-weight:600;
+}
+
+#spanOne:hover {
+    text-decoration: underline;
+}
+#spanTwo:hover {
+    text-decoration: underline;
+}
+
+#pTwo {
+    color: rgb(110, 108, 108);
+
+}
+
+.bg-img {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./bg2.jpg);
+    height: 120vh;
+    background-image: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;      
+ 
+}
+.errorMsg{
+    color: #e50914;
+}
+.ErrorMsg{
+    color: #e50914;
+}
+button{
+    cursor: pointer;
+}
